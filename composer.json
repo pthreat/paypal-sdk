@@ -1,0 +1,25 @@
+{
+    "name": "pthreat/paypal-sdk",
+    "description": "PayPal's PHP SDK for REST APIs",
+    "keywords": ["paypal", "payments", "rest", "sdk"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "http://paypal.github.io/PayPal-PHP-SDK/",
+    "authors": [
+        {
+            "name": "PayPal",
+            "homepage": "https://github.com/paypal/rest-api-sdk-php/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "psr/log": "^3.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "PayPal": "lib/"
+        }
+    }
+}
